@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  /*background-color: red;*/
+}
+.myarticle {
+    height: 100px;
+    overflow-y: auto;
+    clear:both;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+div.right {
+    height:100%;
+}
+
+.simpleBorder {
+    border: 1px;
+}
+#description {
+    border:1px solid royalblue;
+    height:50%;
+}
+
+header {
+    height: 150px;
+}

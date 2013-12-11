@@ -1,0 +1,22 @@
+html, body {
+    height:100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#target-drop {
+    border: 1px solid black;
+    width: 20%;
+    height: 100px;
+}
+
+#draw-target {
+    width:60%;
+    border: 1px solid red;
+    height: 100px;
+    overflow-y: auto;
+}
+#draw-target img{
+    max-height: 50px;
+    max-width: 50px;
+}

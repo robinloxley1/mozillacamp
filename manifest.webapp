@@ -1,0 +1,15 @@
+{
+  "name": "Leo Chat",
+  "developer": {
+    "name": "Leo",
+    "url": "leozgp.wordpress.com"
+  },
+  "description": "Leo App Description",
+  "icons": {
+    "128": "/leodive.jpg"
+  },
+  "launch_path": "/messagebox.html",
+  "permissions": {
+    "desktop-notification": {}
+  }
+}

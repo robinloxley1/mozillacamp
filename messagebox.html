@@ -2,46 +2,75 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="mb-style.css"/>
 </head>
-<body>
-<header>
-    <div id="icon-target">
-        <img id="img-target" class="img-circle" src="https://www.gravatar.com/avatar/3c85a38a44de4565364001f5a61c8ac4?s=128&d=identicon&r=PG"/>
+<body class="container">
+
+<div class="row">
+    <div id="icon-target" class="col-xs-4 col-sm-3 col-md-2">
+        <img id="img-target" class="img-circle img-responsive"
+             src="http://www.gravatar.com/avatar/3c85a38a44de4565364001f5a61c8ac4?s=128&d=identicon&r=PG"/>
     </div>
-    <div class="right">
+
+    <div class="col-xs-8 col-sm-4 col-md-3">
         <p>
-            Leo - Computer Engineering
+            <span id="myName">Leo</span> - Computer Engineering
         </p>
 
         <p id="description">
-            <a href="http://leozgp.wordpress.com">Blog: leozgp.wordpress.com</a><br>
+            <a href="http://leozgp.wordpress.com"  target="_blank">Blog: leozgp.wordpress.com</a><br>
             Hobby: diving
         </p>
     </div>
-</header>
-
-
-<div class="panel panel-primary">
-    <div class="panel-heading">Message Box</div>
-    <div id="message_box" class="panel-body myarticle" ></div>
 </div>
 
-<footer>
-    <div class="row">
-        <div class="col-xs-6">
-            <input type="text" id="message_field" class="form-control" placeholder="type here">
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6">
+        <div class=" panel panel-primary">
+            <div class="panel-heading">Message Box</div>
+            <div id="message_box" class="panel-body myarticle"></div>
         </div>
-        <div class="col-xs-2">
-            <button id="myButton" type="button" class="btn btn-primary">Click Me!</button>
-        </div>
-
     </div>
+</div>
 
-</footer>
+<!--<div class="row">-->
+    <!--<div class="col-xs-12 col-sm-8 col-md-6">-->
+        <!--<input type="text" id="message_field" class="form-control" placeholder="type here">-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div class="row">-->
+    <!--<div class="col-xs-12 col-sm-12 col-md-12 simpleBorder">-->
+        <!--<div class="btn-group-sm">-->
+            <!--<button id="myButton" type="button" class="btn btn-primary col-xs-4 col-sm-2 col-md-2">Send Text</button>-->
+            <!--<button id="image_submit" type="button" class="btn btn-warning col-xs-4 col-sm-2 col-md-2">Send Image</button>-->
+            <!--<button id="link_submit" type="button" class="btn btn-success col-xs-4 col-sm-2 col-md-2">Send Link</button>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="row">
+    <div class="col-xs-6 col-sm-5 col-md-4">
+        <input type="text" id="message_field" class="form-control" placeholder="type here">
+    </div>
+    <div class="btn-group dropup  col-xs-6 col-sm-6 col-md-4">
+        <button id="myButton" type="button" class="btn btn-danger">Send Text</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a id="image_submit" href="#">Send Image</a></li>
+            <li><a id="link_submit" href="#">Send Link</a></li>
+        </ul>
+    </div>
+</div>
 
 <script src="mb-script.js"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>
 

@@ -1,12 +1,48 @@
-html, body {
-    height: 100%;
-    max-width: 500px;
-    margin: 0 auto;
+/*html, body {*/
+    /*height: 100%;*/
+    /*max-width: 500px;*/
+    /*margin: 0 auto;*/
     /*background-color: red;*/
+/*}*/
+
+/*#icon-target {*/
+    /*height: 100%;*/
+    /*width: 150px;*/
+    /*float: left;*/
+/*}*/
+
+
+/*.right {*/
+    /*float: right;*/
+/*}*/
+
+/*.left {*/
+    /*float: left;*/
+/*}*/
+
+/*div.right {*/
+    /*height: 100%;*/
+/*}*/
+
+#icon-target.mousein {
+    border: 5px #e6e6e6 solid;
+}
+
+#img-target {
+    width: 95%;
+    height: auto;
+    /*object-fit: contain;*/
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#img-target.mousein {
+    width: 80%;
+    height: auto;
 }
 
 .myarticle {
-    height: 100px;
+    height: 250px;
     overflow-y: auto;
     clear: both;
 }
@@ -16,24 +52,11 @@ a {
     text-decoration: none;
 }
 
-.right {
-    float: right;
-}
-
-.left {
-    float: left;
-}
-
-/*div.left{*/
-/*height:100%;*/
-/*width: auto;*/
-/*}*/
-div.right {
-    height: 100%;
-}
-
 .simpleBorder {
     border: 1px solid red;
+}
+.simpleBorder2 {
+    border: 1px solid green;
 }
 
 #description {
@@ -41,29 +64,13 @@ div.right {
     height: 50%;
 }
 
-header {
-    height: 150px;
-}
+/*header {*/
+    /*height: 150px;*/
+/*}*/
 
-#img-target {
-    width: 95%;
-    height: 95%;
-    /*object-fit: contain;*/
-    object-fit: cover;
-    overflow: hidden;
-}
 
-#img-target.mousein {
-    width: 80%;
-    height: 80%;
-}
 
-#icon-target {
-    height: 100%;
-    width: 150px;
-    float: left;
-}
-
-#icon-target.mousein {
-    border: 5px #e6e6e6 solid;
+#message_box img {
+    height:50px;
+    width:auto;
 }

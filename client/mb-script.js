@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myName = document.getElementById("myName").textContent;
     console.log(myName);
 
-    var socket = new WebSocket("ws://172.22.131.203:3000");
+    var socket = new WebSocket("ws://YOUR-OWN-IP-ADDRESS:3000");
     console.log(socket);
     socket.onmessage = onMessage;
     socket.onclose = onClose;

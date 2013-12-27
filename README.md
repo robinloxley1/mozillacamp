@@ -16,6 +16,7 @@ The application is deployable to Firefox OS and tested on firefox os mobile devi
 # Server
 1. require("ws") for websocket service. reference: http://einaros.github.io/ws/
 2. node server.js after npm install ws
+3. Port for websocket must be open.
 
 # Deploy to Heroku
 
